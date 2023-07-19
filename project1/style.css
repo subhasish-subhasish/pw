@@ -1,0 +1,152 @@
+/** header section */
+header{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    width: 30px;
+    height: 30px;
+    align-self: center;
+    padding: 2px;
+}
+.logo h2{
+    align-self: center;
+    padding: 5px;
+    font-weight: bold;
+}
+.top{
+    display: flex;
+    align-items: center;
+}
+.top a{
+    color:rgb(71, 69, 69);
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 50px;
+}
+.top a:hover{
+    color:orange
+}
+.signup{
+    border: 2px solid black;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+/** main section */
+main{
+    display: flex;
+    justify-content: space-between;
+}
+.first{
+    margin:10px ;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+.study h1{
+    margin: 20px;
+}
+.study p{
+    border-left: 1px solid black;
+    margin: 20px;
+    padding: 10px;
+    font-size: medium;
+}
+.get{
+    display: flex;
+    margin: 10px;
+}
+.get-start{
+    background-color: rgb(230, 134, 17);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 2px;
+}
+.learn{
+    margin: 10px;
+    padding: 10px;
+    border: 1.5px solid black;
+}
+.second{
+    width: 45%;
+    height: 500px;
+}
+.image{
+    margin: 10px;
+}
+.img1{
+    position: relative;
+    left: 150px;
+    top:100px;
+    z-index: 990;
+
+}
+.img2{
+    position: relative;
+    top:110px;
+    left:-100px;
+    z-index: 6;
+    width: 300px;
+}
+.img3{
+    width: 300px;
+    position: relative;
+    top:-200px;
+    left:100px;
+    z-index: 999;
+}
+.img4{
+    position: relative;;
+    top:-500px;
+    right: 300px;
+}
+.img5{
+    position: relative;
+    top:-100px;
+    right: 300px;
+}
+.img6{
+    position: relative;
+    top: -150px;
+    right: 600px;
+}
+.img7{
+    position: relative;
+    top:-220px;
+    left:400px;
+}
+
+/** footer section */
+footer{
+    background-color: darkslateblue;
+    display: flex;
+    color: white;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+.end div{
+    margin: 20px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+.footer1 img{
+    background-color: rgb(5, 247, 167);
+    padding: 10px;
+    border-radius: 5px;
+}
+.footer2 img{
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 5px;
+}
+.footer3 img{
+    background-color: rgb(154, 0, 250);
+    padding: 10px;
+    border-radius: 5px;
+}
